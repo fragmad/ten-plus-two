@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+click = "*"
+"notify2" = "*"
+dbus-python = "*"
+pydub = "*"
+simpleaudio = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"

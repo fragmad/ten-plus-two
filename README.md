@@ -1,4 +1,4 @@
-ubuntu requires 	libasound2-dev to be installed
+ubuntu requires 	libasound2-dev to be installed and for python-dbus libdbus-glib-1-dev libdbus-1-dev
 
 
 

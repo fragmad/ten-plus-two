@@ -1,4 +1,3 @@
-import argparse
 import time
 import notify2
 import simpleaudio as sa

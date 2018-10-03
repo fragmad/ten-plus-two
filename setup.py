@@ -1,0 +1,12 @@
+from setuptools import setup
+
+# noinspection PyInterpreter
+setup(name='ten-plus-two',
+      version='0.1',
+      description='A productivity timer',
+      url='https://github.com/fragmad/ten-plus-two',
+      author='William Ellwood',
+      author_email='fragmad@gmail.com',
+      license='MIT',
+      packages=['ten-plus-two'],
+      zip_safe=False)

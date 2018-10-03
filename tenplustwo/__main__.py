@@ -37,7 +37,7 @@ start = notify2.Notification("Start!",
 
 start.show()
 
-bell_sound = sa.WaveObject.from_wave_file('./assets/Zen Temple Bell-SoundBible.com-2070036999.wav')
+bell_sound = sa.WaveObject.from_wave_file('.//assets/Zen Temple Bell-SoundBible.com-2070036999.wav')
 play_bell = bell_sound.play()
 play_bell.wait_done()
 

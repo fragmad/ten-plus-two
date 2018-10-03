@@ -1,0 +1,19 @@
+#!/usr/bin/env python
+
+import argparse
+from tenplustwo.tenplustwo import TenPlusTwo
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-w","--work", help="time to work in minutes",
+                    default=10, type=int)
+parser.add_argument("-b","--rest", help="time to break in minutes",
+                    default=2, type=int)
+parser.add_argument("-r","--reps", help="number of repetitions to complete before exiting",
+                    default=5, type=int)
+
+args = parser.parse_args()
+
+merlin = TenPlusTwo(args.work,args.rest,args.reps)
+merlin.work_rest_loop()
+
